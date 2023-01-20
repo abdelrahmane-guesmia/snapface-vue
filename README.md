@@ -1,5 +1,7 @@
 # snapface-vue
 
+Application frontend en vue pour effectuer des tests
+
 ## Build Setup
 
 ```bash
