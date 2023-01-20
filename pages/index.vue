@@ -12,14 +12,16 @@ export default Vue.extend({
   data() {
     return {
       items: [
-        { name: "Apple", price: 4, categorie: "Fruits" },
-        { name: "Pineapples", price: 7, categorie: "Fruits" },
-        { name: "Short", price: 2, categorie: "Clothing" },
-        { name: "Pants", price: 8, categorie: "Clothing" },
+        { name: "Apple", price: 5.5, categorie: "Fruits" },
+        { name: "Pineapples", price: 8.5, categorie: "Fruits" },
+        { name: "Orange", price: 20.5, categorie: "Fruits" },
+        { name: "Short", price: 15, categorie: "Clothing" },
+        { name: "Pants", price: 60, categorie: "Clothing" },
       ],
       discount: [
-        { name: "Apple", categorie: "Fruits", percentage: 10 },
-        { name: "Pants", categorie: "Clothing", percentage: 15 }
+        { name: "Apple", categorie: "Fruits", percentage: 75 },
+        { name: "Pants", categorie: "Clothing", percentage: 25 },
+        { name: "Short", categorie: "Clothing", percentage: 10 }
       ]
     };
   }
